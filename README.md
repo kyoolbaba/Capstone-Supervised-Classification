@@ -18,3 +18,25 @@
 ![image](https://user-images.githubusercontent.com/46890041/176097715-b74f7d00-8d1f-433e-a317-540dda90e7cd.png)
 
 
+# Splitting Dataset
+![image](https://user-images.githubusercontent.com/46890041/176098680-3254f67c-651d-4027-b1e0-bfc85023fee0.png)
+
+# PipeLine
+![image](https://user-images.githubusercontent.com/46890041/176098751-3dd7b3f5-bb31-4a3c-9714-f312d18dd3d6.png)
+
+# Hyper tuning with Feature Selection
+![image](https://user-images.githubusercontent.com/46890041/176098822-1f1fa657-7034-4068-b175-1c9e1e1b3436.png)
+
+# Process carried before training the model
+![image](https://user-images.githubusercontent.com/46890041/176098979-d6bcb7cf-1000-439f-b03d-80a7af2dbecd.png)
+
+# Best Performance
+![image](https://user-images.githubusercontent.com/46890041/176099034-f3f3113d-bb5d-413a-8ab0-e7d910aed7ec.png)
+
+# ROC Curve
+![image](https://user-images.githubusercontent.com/46890041/176099152-4b000f69-0395-425c-9542-92b06e8d0097.png)
+
+# PRC Curve
+![image](https://user-images.githubusercontent.com/46890041/176099195-6a870bb4-f4a5-41b5-819a-58cf93f477b7.png)
+
+
