@@ -1,4 +1,6 @@
 # Capstone-Supervised-Classification
+![image](https://user-images.githubusercontent.com/46890041/176097582-427e7ab8-2b60-476a-a72e-1e7a2767d87a.png)
+
 
 # Company Bankruptcy Prediction
 ## (Supervised Machine Learning Classification)
@@ -6,6 +8,13 @@
 
 ### Problem Statement:
 ### The prediction of bankruptcy is a phenomenon of increasing interest to firms who stand to lose money because of unpaid debts. Since computers can store huge datasets about bankruptcy making accurate predictions from them beforehand is becoming important.
-The data were collected from the Taiwan Economic Journal for the years 1999 to 2009. Company bankruptcy was defined based on the business regulations of the Taiwan Stock Exchange.
-In this project, you will use various classification algorithms on the bankruptcy datasets to predict bankruptcies with satisfying accuracies long before the actual event.
+### The data were collected from the Taiwan Economic Journal for the years 1999 to 2009. Company bankruptcy was defined based on the business regulations of the Taiwan Stock Exchange.
+### In this project, you will use various classification algorithms on the bankruptcy datasets to predict bankruptcies with satisfying accuracies long before the actual event.
+
+# Imbalanced Dataset
+![image](https://user-images.githubusercontent.com/46890041/176097654-a6560749-a4ab-4e26-8ad9-3bd7a1735891.png)
+
+## Skewness
+![image](https://user-images.githubusercontent.com/46890041/176097715-b74f7d00-8d1f-433e-a317-540dda90e7cd.png)
+
 
