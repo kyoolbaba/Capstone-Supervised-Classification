@@ -55,3 +55,13 @@ Hardware Optimization: This algorithm has been designed to make efficient use of
 ![image](https://user-images.githubusercontent.com/46890041/184294556-75b63d79-bae2-497c-8bec-962eb2b72cba.png)
 
 
+# Execution Instructions
+1. Step-1 Create a folder 
+2. Step -2 Download the dataset into the folder from this kaggle page https://www.kaggle.com/datasets/fedesoriano/company-bankruptcy-prediction 
+3. Dpwnload the jupyter note boook into the folder 
+
+# Credits
+MILAN GOWDA J.P.  | Avid Learner | Data Scientist | Machine Learning Engineer | Deep Learning enthusiast
+Contact me for Data Science Project Collaboration
+[![image](https://user-images.githubusercontent.com/46890041/184296564-ca263e51-28f3-4d94-b4dd-8c94b8bc3b61.png)](https://www.linkedin.com/in/milangowda/)
+
