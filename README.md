@@ -39,4 +39,19 @@
 # PRC Curve
 ![image](https://user-images.githubusercontent.com/46890041/176099195-6a870bb4-f4a5-41b5-819a-58cf93f477b7.png)
 
+# XGBoost Classifier (giving best results)
+XGBoost is a decision-tree-based ensemble Machine Learning algorithm that uses a gradient boosting framework. In prediction problems involving unstructured data (images, text, etc.) artificial neural networks tend to outperform all other algorithms or frameworks. However, when it comes to small-to-medium structured/tabular data, decision tree based algorithms are considered best-in-class right now. Please see the chart below for the evolution of tree-based algorithms over the years.
+![image](https://user-images.githubusercontent.com/46890041/184294363-ac375ffa-37bd-4dc1-95fe-0ad30f941150.png)
+Why does XGBoost perform so well?
+XGBoost and Gradient Boosting Machines (GBMs) are both ensemble tree methods that apply the principle of boosting weak learners (CARTs generally) using the gradient descent architecture. However, XGBoost improves upon the base GBM framework through systems optimization and algorithmic enhancements.
+![image](https://user-images.githubusercontent.com/46890041/184294454-574076df-6cbc-445e-87df-a2eaa83d83ad.png)
+
+System Optimization:
+
+Parallelization: XGBoost approaches the process of sequential tree building using parallelized implementation. This is possible due to the interchangeable nature of loops used for building base learners; the outer loop that enumerates the leaf nodes of a tree, and the second inner loop that calculates the features. This nesting of loops limits parallelization because without completing the inner loop (more computationally demanding of the two), the outer loop cannot be started. Therefore, to improve run time, the order of loops is interchanged using initialization through a global scan of all instances and sorting using parallel threads. This switch improves algorithmic performance by offsetting any parallelization overheads in computation.
+Tree Pruning: The stopping criterion for tree splitting within GBM framework is greedy in nature and depends on the negative loss criterion at the point of split. XGBoost uses ‘max_depth’ parameter as specified instead of criterion first, and starts pruning trees backward. This ‘depth-first’ approach improves computational performance significantly.
+Hardware Optimization: This algorithm has been designed to make efficient use of hardware resources. This is accomplished by cache awareness by allocating internal buffers in each thread to store gradient statistics. Further enhancements such as ‘out-of-core’ computing optimize available disk space while handling big data-frames that do not fit into memory.
+
+![image](https://user-images.githubusercontent.com/46890041/184294556-75b63d79-bae2-497c-8bec-962eb2b72cba.png)
+
 
